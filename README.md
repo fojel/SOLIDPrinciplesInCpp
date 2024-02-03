@@ -1,38 +1,38 @@
-# Principios SOLID en C++
+# SOLID Principles in C++
 
-Este repositorio contiene ejemplos y explicaciones relacionadas con los principios SOLID en el contexto de la programación en C++. Los principios SOLID son un conjunto de pautas de diseño que ayudan a escribir código más limpio, mantenible y flexible.
+This repository contains examples and explanations related to the SOLID principles in the context of C++ programming. SOLID principles are a set of design guidelines that help write cleaner, maintainable, and flexible code.
 
-## Principios SOLID
+## SOLID Principles
 
-### 1. Principio de Responsabilidad Única (SRP)
+### 1. Single Responsibility Principle (SRP)
 
-El SRP establece que una clase debe tener una única razón para cambiar. En este repositorio, encontrará ejemplos que demuestran cómo aplicar el SRP en C++ y cómo dividir clases y funciones de manera que tengan una única responsabilidad.
+The SRP states that a class should have only one reason to change. In this repository, you'll find examples demonstrating how to apply SRP in C++ and how to split classes and functions so that they have a single responsibility.
 
-### 2. Principio de Abierto/Cerrado (OCP)
+### 2. Open/Closed Principle (OCP)
 
-El OCP establece que las entidades de software (clases, módulos, funciones) deben estar abiertas para la extensión pero cerradas para la modificación. Verá ejemplos de cómo utilizar herencia y polimorfismo en C++ para cumplir con este principio.
+The OCP states that software entities (classes, modules, functions) should be open for extension but closed for modification. You'll see examples of how to use inheritance and polymorphism in C++ to adhere to this principle.
 
-### 3. Principio de Sustitución de Liskov (LSP)
+### 3. Liskov Substitution Principle (LSP)
 
-El LSP establece que los objetos de una clase derivada deben ser capaces de reemplazar a los objetos de la clase base sin afectar la corrección del programa. Aquí, se presentarán ejemplos que demuestran cómo garantizar el cumplimiento del LSP en C++.
+The LSP states that objects of a derived class should be able to replace objects of the base class without affecting the program's correctness. Here, examples will be presented to demonstrate how to ensure LSP compliance in C++.
 
-### 4. Principio de Segregación de Interfaces (ISP)
+### 4. Interface Segregation Principle (ISP)
 
-El ISP establece que una clase no debe verse forzada a implementar interfaces que no utiliza. En este repositorio, se ilustrará cómo diseñar interfaces C++ de manera que sean cohesivas y centradas en las necesidades de las clases que las implementan.
+The ISP states that a class should not be forced to implement interfaces it does not use. In this repository, we'll illustrate how to design C++ interfaces in a way that is cohesive and focused on the needs of the implementing classes.
 
-### 5. Principio de Inversión de Dependencias (DIP)
+### 5. Dependency Inversion Principle (DIP)
 
-El DIP establece que las dependencias deben estar dirigidas hacia abstracciones, no hacia implementaciones concretas. Verá ejemplos de cómo aplicar la inversión de dependencias utilizando patrones como la inyección de dependencias en C++.
+The DIP states that dependencies should be directed towards abstractions, not concrete implementations. You'll see examples of applying dependency inversion using patterns like dependency injection in C++.
 
-## Ejemplos y Uso
+## Examples and Usage
 
-Cada directorio dentro de este repositorio contiene ejemplos específicos relacionados con uno de los principios SOLID. Puede explorarlos para comprender cómo aplicar estos principios en sus propios proyectos C++.
+Each directory within this repository contains specific examples related to one of the SOLID principles. You can explore them to understand how to apply these principles in your own C++ projects.
 
-## Contribución
+## Contribution
 
-1. **Fork** el repositorio en GitHub haciendo clic en el botón "Fork" en la parte superior de esta página.
+1. **Fork** the repository on GitHub by clicking the "Fork" button at the top of this page.
 
-2. **Clona** tu repositorio bifurcado en tu máquina local:
+2. **Clone** your forked repository to your local machine:
 
    ```bash
-   git clone https://github.com/TU_USUARIO/principios-SOLID-en-CPP.git
+   git clone https://github.com/fojelio/SOLIDPrinciplesInCpp.git
